@@ -1,0 +1,41 @@
+ID,Name,Concepticon_ID,Concepticon_Gloss,Number,Spanish_Gloss,Certainty,Provenance_Author,Provenance_Jury,Unit_ID
+1_silver,silver,759,SILVER,1,plata / valor monetario,A,I,II,A1
+2_half,half; middle,816,HALF,2,mitad,A,I,I,A2
+3_unit,unit,,,3,unidad de cuenta,B,I,II,A3
+4_entry,entry; item,,,4,"partida, asiento",C,II,II,A4
+5_all,all; whole; total; sum,98,ALL,5,"total, suma",C,II,II,A5
+6_value,value; price; worth,657,PRICE,6,"valor, tasación",C,II,III,A6
+7_farm,farm; estate; property; homestead,201,FARM,7,"finca, fundo",B/C,II,II,A7
+8_ditch,ditch; channel; stream; brook,2002,DITCH,8,"acequia, reguero",B/C,II,III,A8
+9_fold,fold; pen; enclosure; stable,794,PEN,9,corral,B/C,II,III,A9
+10_calf,calf; heifer,1989,CALF,10,"becerro, res joven",C,II,III,A10
+11_garden,garden; orchard,586,GARDEN,11,huerto,B/C,II,III,A11
+12_pasture,pasture; sheepfold,649,PASTURE,12,"pasto acotado, majada",C,II,III,A12
+13_forest,forest; wood; woods; woodland; mountain,2311,WOODS,13,"monte, dehesa",C,II,III,A13
+14_holm,holm; oak,644,OAK,14,"encina, encinar",C,II,III,A14
+15_side,side; flank,682,SIDE,15,"lado, costado",C,II,III,A15
+16_tax,tax; tribute; rent,,,16,"tributo, canon",C,II,II,A16
+17_writing,writing; letter; document; write,1612,LETTER,17,"escrito, documento",A/C,I,II,A17
+18_lord,lord; master; owner; chief,383,MASTER,18,"titular, señor",B/C,II,II,A18
+19_companion,companion; fellow; comrade; partner; friend,3978,COMPANION,19,"socio, compañero",B/C,II,III,A19
+20_witness,witness; guarantor; depositary,1144,WITNESS,20,testigo-depositario,B/C,II,III,A20
+21_give,give; grant,1447,GIVE,21,"otorgar, dar",B/C,II,II,A21
+22_leave,leave; release; free,1095,LET GO OR SET FREE,22,"liberar, soltar",B/C,II,II,A22
+23_pledge,pledge; pawn; surety; bail,,,23,"prenda, fianza",C,II,III,A23
+24_earth,earth; land; soil; ground,1228,EARTH (SOIL),24,tierra,C,III,III,A24
+25_valley,valley; plain; lowland,921,VALLEY,25,vega,C,III,III,A25
+26_spring,spring; fountain; source,849,SPRING (OF WATER),26,"fuente, manantial",C,III,III,A26
+27_grass,grass; hay; meadow,606,GRASS,27,"hierba, prado",C,III,III,A27
+28_road,road; path; way,667,ROAD,28,camino,B/C,III,III,A28
+29_thicket,thicket; scrub; bush; brushwood,1683,BUSH,29,"carrascal, monte bajo",C,III,III,A29
+30_make,make; do,2575,DO OR MAKE,30,hacer,A,I,II,A30
+31_one,one,1493,ONE,31,uno,A,I,I,N1
+32_two,two,1498,TWO,32,dos,B,III,III,N2
+33_three,three,492,THREE,33,tres,B,III,,N3
+34_four,four,1500,FOUR,34,cuatro,B,III,III,N4
+35_five,five,493,FIVE,35,cinco,B,III,,N5
+36_six,six,1703,SIX,36,seis,B,III,,N6
+37_seven,seven,1704,SEVEN,37,siete,B,III,III,N7
+38_eight,eight,1705,EIGHT,38,ocho,B,III,,N8
+39_ten,ten,1515,TEN,39,diez,A,I,I,N10
+40_twenty,twenty,1710,TWENTY,40,veinte,B,I,III,N20

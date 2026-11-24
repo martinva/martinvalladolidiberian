@@ -1,5 +1,21 @@
 # Iberian lead-plaque lexicon: 40 lexical units with proposed meanings (not translations), certainty and provenance coding
 
+## How to cite
+
+If you use these data please cite
+- the original source
+  > Martín Valladolid, David (2026). Iberian lead-plaque lexicon: 40 lexical units with proposed meanings (not translations), certainty and provenance coding. CLDF dataset. https://github.com/martinva/martinvalladolidiberian
+- the derived dataset using the DOI of the [particular released version](../../releases/) you were using
+
+## Description
+
+
+This dataset is licensed under a CC-BY-4.0 license
+
+Available online at https://github.com/martinva/martinvalladolidiberian
+
+## Notes
+
 ## Warning for reuse: proposed meanings, not translations
 
 Iberian is an undeciphered language. Every form–concept pair in this dataset is a *proposal* with a stated certainty grade, not an established translation. **Do not use the dataset as a dictionary**; filter by `Certainty` before any comparison. The warning is repeated in the `Comment` of every form.
@@ -22,3 +38,40 @@ Forty lexical units of the Iberian lead plaques (64 attested forms). For each un
 The CLDF data are generated only by the cldfbench script in this repository (`cldfbench lexibank.makecldf lexibank_martinvalladolidiberian.py`), from the Excel file in `raw/` and the tables in `etc/`. The repository was prepared with the help of AI tools under the author's direction; the conversion is rebuilt and validated on every change by the workflow in `.github/workflows/`.
 
 Related record (replication data and programs of the statistical study): https://doi.org/10.5281/zenodo.24446155
+
+
+
+## Statistics
+
+
+[![CLDF validation](https://github.com/martinva/martinvalladolidiberian/workflows/CLDF-validation/badge.svg)](https://github.com/martinva/martinvalladolidiberian/actions?query=workflow%3ACLDF-validation)
+![Glottolog: 100%](etc/badge_languages.svg)
+![Concepticon: 91%](etc/badge_concepts.svg)
+![Source: 100%](etc/badge_sources.svg)
+![BIPA: 100%](etc/badge_bipa.svg)
+![CLTS SoundClass: 100%](etc/badge_sc.svg)
+
+- **Varieties:** 1 (linked to 1 different Glottocodes)
+- **Concepts:** 40 (linked to 36 different Concepticon concept sets)
+- **Lexemes:** 64
+- **Sources:** 6
+- **Synonymy:** 1.60
+- **Invalid lexemes:** 0
+- **Tokens:** 316
+- **Segments:** 16 (0 BIPA errors, 0 CLTS sound class errors, 16 CLTS modified)
+- **Inventory size (avg):** 16.00
+
+# Contributors
+
+| Name | GitHub user | Description | Role |
+| --- | --- | --- | --- |
+| David Martín Valladolid | @martinva | data collection, certainty and provenance coding, CLDF conversion | Author |
+
+
+
+
+## CLDF Datasets
+
+The following CLDF datasets are available in [cldf](cldf):
+
+- CLDF [Wordlist](https://github.com/cldf/cldf/tree/master/modules/Wordlist) at [cldf/cldf-metadata.json](cldf/cldf-metadata.json)
