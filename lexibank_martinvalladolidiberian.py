@@ -5,9 +5,10 @@ Concepticon linking: etc/concepts.tsv.  Language: etc/languages.tsv.  Orthograph
 
 Run with:  cldfbench lexibank.makecldf lexibank_martinvalladolidiberian.py
 """
+import dataclasses
 import pathlib
+import typing
 
-import attr
 import openpyxl
 from clldutils.misc import slug
 from pylexibank import Concept, Lexeme, FormSpec
@@ -16,19 +17,19 @@ from pylexibank import Dataset as BaseDataset
 XLSX = "iberian_lead_plaque_lexicon.xlsx"
 
 
-@attr.s
+@dataclasses.dataclass
 class CustomConcept(Concept):
-    Number = attr.ib(default=None)
-    Spanish_Gloss = attr.ib(default=None)
-    Certainty = attr.ib(default=None)
-    Provenance_Author = attr.ib(default=None)
-    Provenance_Jury = attr.ib(default=None)
-    Unit_ID = attr.ib(default=None)
+    Number: typing.Optional[str] = None
+    Spanish_Gloss: typing.Optional[str] = None
+    Certainty: typing.Optional[str] = None
+    Provenance_Author: typing.Optional[str] = None
+    Provenance_Jury: typing.Optional[str] = None
+    Unit_ID: typing.Optional[str] = None
 
 
-@attr.s
+@dataclasses.dataclass
 class CustomLexeme(Lexeme):
-    Inscriptions = attr.ib(default=None)
+    Inscriptions: typing.Optional[str] = None
 
 
 class Dataset(BaseDataset):

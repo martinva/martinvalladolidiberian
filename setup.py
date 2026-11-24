@@ -6,5 +6,5 @@ setup(
     include_package_data=True,
     zip_safe=False,
     entry_points={"lexibank.dataset": ["martinvalladolidiberian=lexibank_martinvalladolidiberian:Dataset"]},
-    install_requires=["pylexibank>=3.0"],
+    install_requires=["pylexibank>=4.0", "openpyxl"],
 )
