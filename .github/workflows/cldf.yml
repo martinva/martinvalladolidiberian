@@ -1,8 +1,8 @@
 # Rebuilds the CLDF dataset with cldfbench from raw/ and etc/, validates it and commits the result.
-name: cldf
+name: CLDF-validation
 on:
   push:
-    paths-ignore: ["cldf/**", "README.md"]
+    paths-ignore: ["cldf/**", "README.md", "etc/badge_*.svg", ".zenodo.json"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -33,19 +33,19 @@ jobs:
           pytest
       - name: Lexibank checks (informative)
         continue-on-error: true
-        run: cldfbench lexibank.check lexibank_martinvalladolidiberian.py --glottolog cat/glottolog --concepticon cat/concepticon --clts cat/clts
+        run: cldfbench lexibank.check lexibank_martinvalladolidiberian.py
       - name: Summary of the generated data
         run: |
           wc -l cldf/*.csv
           head -5 cldf/forms.csv
       - uses: actions/upload-artifact@v4
         with:
-          name: cldf
+          name: CLDF-validation
           path: cldf
       - name: Commit the generated CLDF
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add cldf README.md
+          git add -A cldf README.md etc .zenodo.json 2>/dev/null || git add -A cldf README.md etc
           git diff --cached --quiet || git commit -m "Rebuild CLDF with cldfbench (automatic)"
           git push
