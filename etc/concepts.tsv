@@ -1,0 +1,41 @@
+NUMBER	ID	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS	NOTE
+1	A1	silver	759	SILVER	
+2	A2	half; middle	816	HALF	
+3	A3	unit			no close Concepticon set; to be decided
+4	A4	entry; item			no close Concepticon set; to be decided
+5	A5	all; whole; total; sum	98	ALL	
+6	A6	value; price; worth	657	PRICE	
+7	A7	farm; estate; property; homestead	201	FARM	
+8	A8	ditch; channel; stream; brook	2002	DITCH	
+9	A9	fold; pen; enclosure; stable	794	PEN	
+10	A10	calf; heifer	1989	CALF	
+11	A11	garden; orchard	586	GARDEN	
+12	A12	pasture; sheepfold	649	PASTURE	
+13	A13	forest; wood; woods; woodland; mountain	2311	WOODS	
+14	A14	holm; oak	644	OAK	
+15	A15	side; flank	682	SIDE	
+16	A16	tax; tribute; rent			no close Concepticon set; to be decided
+17	A17	writing; letter; document; write	1612	LETTER	
+18	A18	lord; master; owner; chief	383	MASTER	
+19	A19	companion; fellow; comrade; partner; friend	3978	COMPANION	
+20	A20	witness; guarantor; depositary	1144	WITNESS	
+21	A21	give; grant	1447	GIVE	
+22	A22	leave; release; free	1095	LET GO OR SET FREE	
+23	A23	pledge; pawn; surety; bail			no close Concepticon set; to be decided
+24	A24	earth; land; soil; ground	1228	EARTH (SOIL)	
+25	A25	valley; plain; lowland	921	VALLEY	
+26	A26	spring; fountain; source	849	SPRING (OF WATER)	
+27	A27	grass; hay; meadow	606	GRASS	
+28	A28	road; path; way	667	ROAD	
+29	A29	thicket; scrub; bush; brushwood	1683	BUSH	
+30	A30	make; do	2575	DO OR MAKE	
+31	N1	one	1493	ONE	
+32	N2	two	1498	TWO	
+33	N3	three	492	THREE	
+34	N4	four	1500	FOUR	
+35	N5	five	493	FIVE	
+36	N6	six	1703	SIX	
+37	N7	seven	1704	SEVEN	
+38	N8	eight	1705	EIGHT	
+39	N10	ten	1515	TEN	
+40	N20	twenty	1710	TWENTY	
