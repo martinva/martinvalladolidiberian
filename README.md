@@ -10,6 +10,8 @@ If you use these data please cite
 ## Description
 
 
+Forty lexical units of the Iberian lead plaques (64 attested forms) with proposed meanings, certainty grades and provenance coding. Iberian is undeciphered: the meanings are proposals, not translations.
+
 This dataset is licensed under a CC-BY-4.0 license
 
 Available online at https://github.com/martinva/martinvalladolidiberian

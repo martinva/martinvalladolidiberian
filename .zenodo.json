@@ -1,0 +1,24 @@
+{
+    "title": "Iberian lead-plaque lexicon: 40 lexical units with proposed meanings (not translations), certainty and provenance coding",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+    ],
+    "creators": [
+        {
+            "name": "David Mart\u00edn Valladolid"
+        }
+    ],
+    "contributors": [],
+    "communities": [
+        {
+            "identifier": "lexibank"
+        }
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Mart\u00edn Valladolid, David (2026). Iberian lead-plaque lexicon: 40 lexical units with proposed meanings (not translations), certainty and provenance coding. CLDF dataset. https://github.com/martinva/martinvalladolidiberian</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-4.0"
+    }
+}
