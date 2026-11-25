@@ -42,7 +42,8 @@ jobs:
         with:
           name: CLDF-validation
           path: cldf
-      - name: Commit the generated CLDF
+      - name: Commit the generated CLDF (branches only; a tag checkout has no branch to push to)
+        if: github.ref_type == 'branch'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
