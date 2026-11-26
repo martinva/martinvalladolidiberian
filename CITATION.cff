@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Iberian lead-plaque lexicon: 40 lexical units with proposed meanings (not translations), certainty and provenance coding"
+authors:
+  - family-names: "Martín Valladolid"
+    given-names: "David"
+    orcid: "https://orcid.org/0009-0003-4884-2573"
+doi: 10.5281/zenodo.24530083
+url: "https://github.com/martinva/martinvalladolidiberian"
+repository-code: "https://github.com/martinva/martinvalladolidiberian"
+license: CC-BY-4.0
+date-released: "2026-11-25"
+keywords:
+  - Iberian
+  - Palaeohispanic languages
+  - CLDF
+  - Lexibank

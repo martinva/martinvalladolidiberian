@@ -20,3 +20,7 @@ Forty lexical units of the Iberian lead plaques (64 attested forms). For each un
 The CLDF data are generated only by the cldfbench script in this repository (`cldfbench lexibank.makecldf lexibank_martinvalladolidiberian.py`), from the Excel file in `raw/` and the tables in `etc/`. The repository was prepared with the help of AI tools under the author's direction; the conversion is rebuilt and validated on every change by the workflow in `.github/workflows/`.
 
 Related record (replication data and programs of the statistical study): https://doi.org/10.5281/zenodo.24446155
+
+## Archive and community
+
+Released versions are archived on Zenodo: https://doi.org/10.5281/zenodo.24530083 (all versions; each release also has its own DOI). Since 26 November 2026 the Zenodo record is part of the [Lexibank community on Zenodo](https://zenodo.org/communities/lexibank). Inclusion in that community concerns the data format; it is not an endorsement of the proposed meanings.
