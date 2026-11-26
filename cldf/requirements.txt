@@ -17,7 +17,7 @@ isodate==0.7.2
 jsonschema==4.26.0
 lingpy==2.6.14
 lxml==6.1.3
-Markdown==3.11.3
+Markdown==3.11.4
 nameparser==3.2.0
 networkx==3.6.1
 newick==1.11.0
@@ -39,7 +39,7 @@ pytest==9.2.0
 python-dateutil==4.0.0
 rdflib==7.6.0
 referencing==0.37.0
-regex==2026.11.24
+regex==2026.11.25
 requests==2.34.2
 rfc3986==1.5.0
 segments==2.4.0
